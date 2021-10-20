@@ -1,0 +1,11 @@
+.FormRicerca{
+    padding-top: 1em;
+    background-color: rgb(182, 213, 248);
+}
+
+.Text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 139, 44);
+}

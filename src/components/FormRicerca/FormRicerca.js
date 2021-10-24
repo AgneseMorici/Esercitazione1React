@@ -6,11 +6,6 @@ export const FormRicerca =() => {
             <div className="Text1">
                 FormRicerca
             </div>
-            <div> 
-                <input type="text"></input>
-                <input type="button"></input>
-            </div>
-           
         </div>
     );
 }

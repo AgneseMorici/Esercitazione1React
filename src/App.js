@@ -1,21 +1,25 @@
 
+import { searchMovies } from './api/searchMovies';
 import './App.css';
 import {FormRicerca} from './components/FormRicerca/FormRicerca';
 import {Results} from './components/Results/Results';
-import {Movie} from './components/Movie/Movie';
-import {Pages} from './components/Pages/Pages';
 
 
 
 
 function App() {
+  const results = {
+  
+    const: Results = searchMovies(),
+
+  }
   return (
     <div className="App">
 
       <FormRicerca/>
-      <Results/>
-      <Movie/>
-      <Pages/>    
+      <Results pages={results.pages}
+      currentPages={results.currentPages} movie={results.movie} />
+       
     </div>
   );
 }
